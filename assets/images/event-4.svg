@@ -1,0 +1,23 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="url(#gradient4)"/>
+  <defs>
+    <linearGradient id="gradient4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- JavaScript Logo Style -->
+  <rect x="160" y="90" width="80" height="80" rx="10" fill="#f7df1e"/>
+  <text x="200" y="145" text-anchor="middle" fill="black" font-family="Arial" font-size="36" font-weight="bold">JS</text>
+  
+  <!-- Conference Elements -->
+  <rect x="120" y="190" width="160" height="40" rx="20" fill="white" opacity="0.3"/>
+  <circle cx="140" cy="210" r="8" fill="white" opacity="0.8"/>
+  <circle cx="200" cy="210" r="8" fill="white" opacity="0.8"/>
+  <circle cx="260" cy="210" r="8" fill="white" opacity="0.8"/>
+  
+  <!-- Text -->
+  <text x="200" y="260" text-anchor="middle" fill="white" font-family="Arial" font-size="16" font-weight="bold">JSConf India</text>
+  <text x="200" y="280" text-anchor="middle" fill="white" font-family="Arial" font-size="12" opacity="0.8">JavaScript Conference</text>
+</svg>

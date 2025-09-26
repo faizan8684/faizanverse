@@ -1,0 +1,27 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="url(#gradient1)"/>
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- MongoDB Logo Style -->
+  <circle cx="200" cy="120" r="40" fill="rgba(255,255,255,0.2)"/>
+  <path d="M200 90 L210 110 L200 130 L190 110 Z" fill="white" opacity="0.8"/>
+  
+  <!-- People Icons -->
+  <circle cx="150" cy="180" r="15" fill="white" opacity="0.6"/>
+  <rect x="140" y="195" width="20" height="25" rx="10" fill="white" opacity="0.6"/>
+  
+  <circle cx="200" cy="180" r="15" fill="white" opacity="0.6"/>
+  <rect x="190" y="195" width="20" height="25" rx="10" fill="white" opacity="0.6"/>
+  
+  <circle cx="250" cy="180" r="15" fill="white" opacity="0.6"/>
+  <rect x="240" y="195" width="20" height="25" rx="10" fill="white" opacity="0.6"/>
+  
+  <!-- Text -->
+  <text x="200" y="260" text-anchor="middle" fill="white" font-family="Arial" font-size="16" font-weight="bold">MUG Pune Meetup</text>
+  <text x="200" y="280" text-anchor="middle" fill="white" font-family="Arial" font-size="12" opacity="0.8">MongoDB User Group</text>
+</svg>

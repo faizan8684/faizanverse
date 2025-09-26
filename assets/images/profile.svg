@@ -1,0 +1,8 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="300" height="300" fill="#F8FAFC"/>
+<circle cx="150" cy="120" r="40" fill="#E5E7EB"/>
+<path d="M80 220C80 194.595 100.595 174 126 174H174C199.405 174 220 194.595 220 220V240H80V220Z" fill="#E5E7EB"/>
+<circle cx="150" cy="120" r="25" fill="#9CA3AF"/>
+<path d="M95 220C95 202.327 109.327 188 127 188H173C190.673 188 205 202.327 205 220V240H95V220Z" fill="#9CA3AF"/>
+<text x="150" y="270" text-anchor="middle" fill="#6B7280" font-family="system-ui" font-size="14">Your Profile Photo</text>
+</svg>
