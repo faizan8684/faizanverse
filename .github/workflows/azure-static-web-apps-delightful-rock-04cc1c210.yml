@@ -3,22 +3,25 @@ name: Azure Static Web Apps CI/CD
 on:
   push:
     branches:
-      - main   # change if your deployment branch is different
+      - main
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+    branches:
+      - main
 
 jobs:
-  build_and_deploy_job:
+  build_and_deploy:
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - name: Deploy to Azure Static Web Apps
+      - name: Build And Deploy
         uses: Azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_DELIGHTFUL_ROCK_04CC1C210 }}
-          app_location: "/"      # root folder with your index.html
-          skip_app_build: true   # skip Node/React build
-          output_location: "."   # deploy files as-is
+          repo_token: ${{ secrets.GITHUB_TOKEN }} # for PR comments
           action: "upload"
-          api_location: ""
+          app_location: "/"   # root folder of your static app
+          skip_app_build: true
+          output_location: "." # where your built files are
