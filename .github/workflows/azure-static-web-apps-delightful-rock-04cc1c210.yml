@@ -21,3 +21,4 @@ jobs:
           skip_app_build: true   # skip Node/React build
           output_location: "."   # deploy files as-is
           action: "upload"
+          api_location: ""
